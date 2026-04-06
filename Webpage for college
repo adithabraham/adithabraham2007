@@ -1,0 +1,76 @@
+#2. Design web pages for your college containing a description of the courses, departments,
+#faculties,library etc, use href, list tags.
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Amal Jyothi College</title>
+</head>
+<body>
+
+<h1>Amal Jyothi College</h1>
+
+<nav>
+    <a href="#courses">Courses</a> |
+    <a href="#departments">Departments</a> |
+    <a href="#faculty">Faculty</a> |
+    <a href="#library">Library</a>
+</nav>
+
+<hr>
+<h2 id="courses">Courses Offered</h2>
+
+<h3>Undergraduate</h3>
+<ul>
+    <li>B Tech Computer Science</li>
+    <li>B Tech</li>
+</ul>
+
+<h3>Postgraduate</h3>
+<ul>
+    <li>M Tech Computer Science</li>
+    <li>M.Tech</li>
+</ul>
+
+<a href="#top">Go to Top</a>
+
+<hr>
+
+<h2 id="departments">Departments</h2>
+<ul>
+    <li>Computer Science</li>
+    <li>AI and Data Science</li>
+    <li>Cyber Security</li>
+    <li>Food Technology</li>
+</ul>
+
+<a href="#top">Go to Top</a>
+
+<hr>
+
+<h2 id="faculty">Faculty</h2>
+<ul>
+    <li>Dr.Rajesh Kumar</li>
+    <li>Ms.Anjali Nair</li>
+    <li>Mr.Arun Menon</li>
+    <li>Dr.Priya Das</li>
+</ul>
+
+<a href="#top">Go to Top</a>
+
+<hr>
+
+<h2 id="library">Library</h2>
+<p>The college library has a wide collection of books, journals, and digital resources.</p>
+
+<ul>
+    <li>Reading Hall</li>
+    <li>Digital Library</li>
+    <li>Book Lending</li>
+    <li>Online Journals</li>
+</ul>
+
+<a href="#top">Go to Top</a>
+
+</body>
+</html>
