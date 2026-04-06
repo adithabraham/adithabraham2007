@@ -1,0 +1,29 @@
+#6.Write a JavaScript program to calculate and display the area of a rectangle. Prompt the user
+#to enter the length and width of the rectangle, and then compute the area using the formula:
+#area =length * width.
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rectangle Area</title>
+</head>
+<body>
+
+<h2>Area of Rectangle</h2>
+
+<script>
+    let length = prompt("Enter the length of the rectangle:");
+    let width = prompt("Enter the width of the rectangle:");
+
+
+    length = parseFloat(length);
+    width = parseFloat(width);
+
+    let area = length * width;
+
+    alert("The area of the rectangle is: " + area);
+
+</script>
+
+</body>
+</html>
