@@ -1,0 +1,29 @@
+#1. Write html code to develop a web page having two frames that divide the webpage into two
+#equal rows and then divide the row into equal columns and fill each frame with a different background
+#color.
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Frames Layout</title>
+</head>
+
+<body>
+
+<table border="1" width="100%" height="500">
+
+    <!-- First row -->
+    <tr>
+        <td bgcolor="red"></td>
+        <td bgcolor="green"></td>
+    </tr>
+
+    <!-- Second row -->
+    <tr>
+        <td bgcolor="blue"></td>
+        <td bgcolor="yellow"></td>
+    </tr>
+
+</table>
+</body>
+</html>
