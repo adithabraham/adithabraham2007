@@ -1,0 +1,52 @@
+#4.Design a web page of your home town with an attractive background color, text color, an
+#Image,font, etc. (use internal CSS).
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Home Town</title>
+    <style>
+        body {
+            background-color: lightblue;
+            font-family: Arial;
+        }
+
+        h1 {
+            color: darkblue;
+            text-align: center;
+        }
+
+        p {
+            color: black;
+            font-size: 18px;
+        }
+
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 400px;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>Welcome to My Home Town</h1>
+
+<img src="https://www.google.com/imgres?q=kottayam%20map&imgurl=http%3A%2F%2Fwww.justkerala.in%2Fwp-content%2Fuploads%2F2012%2F11%2Fd_kottayam.jpg&imgrefurl=https%3A%2F%2Fwww.justkerala.in%2Fdistricts-in-kerala%2Fkottayam&docid=NPdI59nEqOoMPM&tbnid=Ss-ibzZf19EILM&vet=12ahUKEwjwjueA69iTAxXAXWwGHaYFM3cQnPAOegQIFxAB..i&w=700&h=500&hcb=2&ved=2ahUKEwjwjueA69iTAxXAXWwGHaYFM3cQnPAOegQIFxAB">
+
+<p>
+    My hometown is a beautiful place in Kerala known for its greenery, rivers, and peaceful environment.
+</p>
+
+<p>
+    It has a rich cultural heritage, friendly people, and delicious traditional food.
+</p>
+
+<p>
+    Famous attractions include temples, backwaters, and scenic landscapes.
+</p>
+
+</body>
+</html>
